@@ -38,22 +38,32 @@ svg:hover {
 .landing h1 span {
     color: var(--yellow-color);
 }
+.landing .frist-button {
+    background-color: transparent;
+    color: #fff;
+    outline: 1px solid #fff;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    margin-right: 20px;
+}
 .landing .main-button {
     background-color: var(--yellow-color);
     color: #fff;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    margin-left: 20px;
 }
+.landing .frist-button:hover,
 .landing .main-button:hover {
     background-color: var(--vioult-color);
-};
+}
 
-.landing .frist-button {
-    background-color:#737b75 ;
-    color: #fff;
-    border: 2px solid #fff;
-}
-.landing .frist-button:hover {
-    background-color: transparent;
-}
+
+
 
 /*start about*/
 
@@ -293,6 +303,12 @@ svg:hover {
     }
     .counter .breaks {
         padding: 10px 0;
+    }
+}
+@media (max-width:557px) {
+    .landing .frist-button,
+    .landing .main-button {
+        width: 140px;
     }
 }
 
